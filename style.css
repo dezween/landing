@@ -1,0 +1,268 @@
+body {
+    margin: 0;
+}
+
+
+.menu {
+    text-align: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: white;
+    color: black;
+    opacity: 0.5;
+
+}
+
+.menu a {
+    width: 100px;
+    text-decoration: none;
+    color: black;
+    padding: 5px 60px;
+    background-color: aliceblue;
+
+}
+
+.menu a:hover {
+    background-color: aquamarine;;
+}
+
+
+
+
+
+.header {
+    text-align: center;
+    color: white;
+    background-image: url(img/polygons.png);
+    padding: 200px;
+    background-repeat: no-repeat;
+    background-position: top center;
+    margin-top: 50px;
+    background-attachment: fixed;
+}
+.header .block {
+    display: none;
+}
+
+.header a {
+    border-radius: 10px;
+    padding: 15px;
+    background-color: white;
+    text-decoration: none;
+    color: black;
+}
+
+.header h3 {
+    margin: 50px 0;
+}
+
+.header a:hover {
+    background-color: aquamarine;
+    color: white;
+}
+
+
+
+
+
+.about img {
+    width: 400px;
+    float: right;
+    margin 30px;
+    margin-top: 0;
+}
+
+.about {
+    max-width: 1200px;
+    padding: 40px 0;
+    margin: 0 auto;
+    text-align: justify;
+}
+
+.about h1 {
+    text-align: center;
+}
+
+
+
+
+.team {
+    text-align: center;
+}
+
+.sotrudnik {
+    display: inline-block;
+    width: 20%;
+    margin: 50px 5px;
+    border-color: darkgrey;
+    border-width: 2px;
+    border-style: solid;
+    box-shadow: 0px 2px 5px grey;
+    padding: 20px;
+    text-align: left;
+}
+
+.sotrudnik img {
+    width: 100%;
+}
+
+.position {
+    color: gray;
+}
+
+.sotrudnik a {
+    background-color: #055b73;
+    text-decoration: none;
+    color: white;
+    padding: 10px 0;
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    border-radius: 10px;
+}
+
+
+
+
+.tarif li {
+    list-style: none;
+    border-bottom-color: #dddddd;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    padding: 16px 0;
+}
+
+.tarif .tarifname {
+    color: white;
+    background-color: black;
+    font-size: 25px;
+    padding: 30px 0;
+}
+
+.tarif {
+    display: inline-block;
+    width: 30%;
+    margin: 10px;
+    background-color: white;
+    padding: 0;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.prises {
+    background-color: #616161;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.prises h1,
+.prises p {
+    color: white;
+}
+
+.tarif .bold {
+    font-weight: bold;
+}
+
+.tarif .cena {
+    font-weight: bold;
+    font-size: 25px;
+    color: black;
+}
+
+.tarif .period {
+    color: gray;
+}
+
+.tarif .knopka {
+    background-color: black;
+    padding: 10px 15px;
+    border-radius: 10px;
+    color: white;
+    text-decoration: none;
+}
+
+.tarif .knopka:hover {
+    background-color: white;
+    color: black;
+}
+
+.tarif li:last-child {
+    background-color: #f1f1f1;
+    padding: 20px 0;
+
+}
+
+.tarif .pro {
+    background-color: #055b73;
+    padding: 50px 0;
+}
+
+
+
+
+
+
+
+.kontakt {
+    background-color: #f1f1f1;
+    text-align: center;
+    margin-top: -20px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+.kontakt .adres {
+    background-image: url(img/address.png);
+}
+
+.kontakt .tel {
+    background-image: url(img/phone.png);
+}
+
+.kontakt .pochta {
+    background-image: url(img/mail.png);
+}
+
+.kontakt .info {
+    text-align: left;
+    background-position: left center;
+    background-repeat: no-repeat;
+    background-size: 18px;
+    padding-left: 30px;
+    margin-left: 5%;
+}
+
+.kontakt input {
+    width: 90%;
+    padding: 10px;
+    border: none;
+}
+
+.kontakt button {
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.kontakt button:hover {
+    background-color: white;
+    color: black;
+}
+
+
+
+
+.footer {
+    width: 100%;
+    background-color: black;
+    color: white;
+    margin-top: -20px;
+}
+.footer a {
+    color: white;
+    text-decoration: none;
+}

@@ -1,0 +1,50 @@
+@media (max-width: 575px) {
+
+
+    .tarif {
+        min-width: 80%;
+    }
+
+    .sotrudnik {
+        min-width: 80%;
+    }
+
+    .header {
+/*
+        min-height: 150px;
+        background-size: cover;
+        background-position: center;
+*/
+        background-image: none;
+        padding: 0px;
+        margin-top: 10px;
+    }
+    
+    .header h1 {
+        margin-top: -250px;
+    }
+    
+    .header .block {
+        display: block;
+        width: 500px;
+    }
+    
+    .about {
+        margin-top: 50px;
+    }
+
+    .about img {
+        width: 100%;
+    }
+
+    .menu a {
+        width: 100%;
+        padding: 10px 0;
+        display: block;
+    }
+    
+    .menu {
+        position: static;
+    }
+
+}
